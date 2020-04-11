@@ -62,7 +62,8 @@ main {
   width: 275px;
   margin: 15px;
   padding: 20px 35px 0 35px;
-  border-radius: 8px;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .feature p {
@@ -75,4 +76,26 @@ main {
   position: absolute;
   right: 20px;
   bottom: 20px;
+}
+
+.supervisor {
+  border-top: 6px solid hsl(180, 62%, 55%);
+}
+
+.karma {
+  border-top: 6px solid hsl(34, 97%, 64%);
+}
+
+.team-builder {
+  border-top: 6px solid hsl(0, 78%, 62%);
+}
+
+.calculator {
+  border-top: 6px solid hsl(212, 86%, 64%);
+}
+
+@media (max-width: 375px) {
+  main {
+    display: inline;
+  }
 }
