@@ -1,3 +1,4 @@
-# Frontend Mentor - Four card feature section
+# Frontend Mentor Challenges
 
-![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
+My solutions to some of the real-world HTML, CSS, and JavaScript challenges provided by [Frontend Mentor](https://www.frontendmentor.io/).
+
